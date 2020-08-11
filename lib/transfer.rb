@@ -22,7 +22,8 @@ class Transfer
       "Transaction rejected. Please check your account balance."
       elsif @status == "complete"
       "Transaction was already executed."
-      
+    else
+      sender.
       
     end
   end
