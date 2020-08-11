@@ -23,7 +23,7 @@ class Transfer
       elsif @status == "complete"
       "Transaction was already executed."
     else
-      sender.
+      sender.deposit(amount)
       
     end
   end
