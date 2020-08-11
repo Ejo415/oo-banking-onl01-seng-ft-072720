@@ -10,4 +10,8 @@ attr_accessor   :balance, :status
     def deposit(amount)
       @balance += amount
     end 
+    
+    def display_balance
+      "Your balance is currently $#{@balance}."
+    end
 end
