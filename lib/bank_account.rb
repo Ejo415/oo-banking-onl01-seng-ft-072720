@@ -14,4 +14,11 @@ attr_accessor   :balance, :status
     def display_balance
       "Your balance is $#{@balance}."
     end
-end
+    
+    def valid 
+      if @status = "open" && @balance > 0 
+        true 
+      else false.
+    end
+  end
+  
