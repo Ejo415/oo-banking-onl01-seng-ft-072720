@@ -24,7 +24,9 @@ class Transfer
       "Transaction was already executed."
     else
       sender.deposit(@amount * -1)
-      receiver.deposit(amount)
+      receiver.deposit(@amount)
+      @status = "complete"
+      
       
     end
   end
