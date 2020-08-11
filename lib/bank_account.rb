@@ -7,7 +7,7 @@ attr_accessor   :balance, :status
       @status = "open"
     end
     
-    def deposit(int)
-      self.balance + int = @balance
+    def deposit(amount)
+      self.balance + amount = @balance
     end 
 end
