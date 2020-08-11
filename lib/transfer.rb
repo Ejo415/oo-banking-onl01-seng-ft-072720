@@ -21,7 +21,7 @@ class Transfer
       "Transaction rejected. Please check your account balance."
       elsif
       
-    
+    end
   end
   
 end
