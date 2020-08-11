@@ -19,9 +19,9 @@ class Transfer
   def execute_transaction 
     if sender.valid? == false 
       @status = "rejected"
-      "Transaction rejected. Please check your account balance."
+     puts "Transaction rejected. Please check your account balance."
       elsif @status == "complete"
-      "Transaction was already executed."
+      puts "Transaction was already executed."
     else
       sender.deposit(@amount * -1)
       receiver.deposit(@amount)
